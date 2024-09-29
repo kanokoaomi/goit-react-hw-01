@@ -1,9 +1,9 @@
 import styles from './FriendList.module.css'
-import FriendListItem from '../FriendListItem/FriendListItem';
-import friends from '../friends.json'
+import FriendListItem from '../FriendListItem/FriendListItem'
+import friends from '../../friends.json'
 
 const FriendList = () => {
-  // return (
+  return (
   //   <ul className={styles.list}>
   //     <li className={styles.item}>
   //       <FriendListItem />
@@ -25,7 +25,7 @@ const FriendList = () => {
       }
     </li>
   </ul>
-
+  )
 }
 
 export default FriendList
