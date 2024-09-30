@@ -1,8 +1,8 @@
 // import React from 'react'
-import Profile from './components/Profile/Profile/Profile'
-import FriendList from './components/FriendList/FriendList'
+import Profile from './components/Profile/Profile/Profile.jsx'
+import FriendList from './components/FriendList/FriendList.jsx'
 import friends from './friends.json'
-import TransactionHistory from './components/TransactionHistory/TransactionHistory';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory.jsx';
 import transactions from "./transactions.json";
 
 const userData = {
