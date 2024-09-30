@@ -11,7 +11,6 @@ const FriendList = () => {
   //   </ul>
   // )
   <ul className={styles.list}>
-    <li className={styles.item}>
       {friends.map((friend) => {
           return (
             <FriendListItem
@@ -23,7 +22,6 @@ const FriendList = () => {
           )
         })
       }
-    </li>
   </ul>
   )
 }
