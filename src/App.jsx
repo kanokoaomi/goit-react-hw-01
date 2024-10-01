@@ -1,4 +1,3 @@
-// import React from 'react'
 import Profile from './components/Profile/Profile/Profile.jsx'
 import FriendList from './components/FriendList/FriendList.jsx'
 import friends from './friends.json'
@@ -29,13 +28,7 @@ const App = () => {
       />
 
       <FriendList friends={friends} />
-      <TransactionHistory
-        items={transactions}
-        id={transactions.id}
-        type={transactions.type}
-        amount={transactions.amount}
-        currency={transactions.currency}
-      />
+      <TransactionHistory items={transactions} />
     </>
   );
 };

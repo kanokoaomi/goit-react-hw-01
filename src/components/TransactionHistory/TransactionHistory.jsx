@@ -1,7 +1,7 @@
-import transactions from '../../transactions.json'
+// import transactions from '../../transactions.json'
 import styles from './TransactionHistory.module.css'
 
-const TransactionHistory = () => { 
+const TransactionHistory = ({items}) => { 
     return (
     <table className={styles.table}>
         <thead className={styles.header}>
@@ -13,7 +13,7 @@ const TransactionHistory = () => {
         </thead>
         
         <tbody>
-            { transactions.map(({ id, type, amount, currency }) => {
+            { items.map(({ id, type, amount, currency }) => {
             return (
                 <tr className={styles.lines} key={id}>
                     <td>{type}</td>
